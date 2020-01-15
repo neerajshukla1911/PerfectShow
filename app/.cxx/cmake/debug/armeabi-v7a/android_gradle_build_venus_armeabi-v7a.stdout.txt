@@ -1,0 +1,171 @@
+[1/37] Building CXX object CMakeFiles/venus.dir/stasm/MOD_1/facedet.cpp.o
+[2/37] Building CXX object CMakeFiles/venus.dir/stasm/MOD_1/initasm.cpp.o
+[3/37] Building CXX object CMakeFiles/venus.dir/stasm/asm.cpp.o
+[4/37] Building CXX object CMakeFiles/venus.dir/stasm/classicdesc.cpp.o
+[5/37] Building CXX object CMakeFiles/venus.dir/stasm/convshape.cpp.o
+[6/37] Building CXX object CMakeFiles/venus.dir/stasm/err.cpp.o
+[7/37] Building CXX object CMakeFiles/venus.dir/stasm/eyedet.cpp.o
+[8/37] Building CXX object CMakeFiles/venus.dir/stasm/eyedist.cpp.o
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/stasm/asm.cpp:12:18: warning: unused parameter 'shape' [-Wunused-parameter]
+    const Shape& shape,  // in: current search shape
+                 ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/stasm/asm.cpp:13:18: warning: unused parameter 'pyrimg' [-Wunused-parameter]
+    const Image& pyrimg, // in: image scaled to this pyramid level
+                 ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/stasm/asm.cpp:14:18: warning: unused parameter 'ilev' [-Wunused-parameter]
+    int          ilev,   // in: pyramid level (0 is full size)
+                 ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/stasm/asm.cpp:15:18: warning: unused parameter 'iter' [-Wunused-parameter]
+    int          iter,   // in: model iteration (-1 if start shape)
+                 ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/stasm/asm.cpp:16:18: warning: unused parameter 'suffix' [-Wunused-parameter]
+    const char*  suffix) // in
+                 ^
+5 warnings generated.
+[9/37] Building CXX object CMakeFiles/venus.dir/stasm/faceroi.cpp.o
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/stasm/MOD_1/facedet.cpp:148:43: warning: unused parameter 'detpars' [-Wunused-parameter]
+    const std::vector<DetectorParameter>& detpars, // in
+                                          ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/stasm/MOD_1/facedet.cpp:149:23: warning: unused parameter 'img' [-Wunused-parameter]
+    const Image&      img,     // in
+                      ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/stasm/MOD_1/facedet.cpp:150:23: warning: unused parameter 'path' [-Wunused-parameter]
+    const char*       path)    // in
+                      ^
+3 warnings generated.
+[10/37] Building CXX object CMakeFiles/venus.dir/stasm/hat.cpp.o
+[11/37] Building CXX object CMakeFiles/venus.dir/stasm/hatdesc.cpp.o
+[12/37] Building CXX object CMakeFiles/venus.dir/stasm/landmarks.cpp.o
+[13/37] Building CXX object CMakeFiles/venus.dir/stasm/misc.cpp.o
+[14/37] Building CXX object CMakeFiles/venus.dir/stasm/pinstart.cpp.o
+[15/37] Building CXX object CMakeFiles/venus.dir/stasm/print.cpp.o
+[16/37] Building CXX object CMakeFiles/venus.dir/stasm/shape17.cpp.o
+[17/37] Building CXX object CMakeFiles/venus.dir/stasm/shapehacks.cpp.o
+[18/37] Building CXX object CMakeFiles/venus.dir/stasm/shapemod.cpp.o
+[19/37] Building CXX object CMakeFiles/venus.dir/stasm/startshape.cpp.o
+[20/37] Building CXX object CMakeFiles/venus.dir/stasm/stasm.cpp.o
+[21/37] Building CXX object CMakeFiles/venus.dir/stasm/stasm_lib.cpp.o
+[22/37] Building CXX object CMakeFiles/venus.dir/venus/Beauty.cpp.o
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/stasm/misc.cpp:867:12: warning: unused parameter 'yaw' [-Wunused-parameter]
+    double yaw,     // in: yaw in degrees, negative if left facing
+           ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/stasm/misc.cpp:868:12: warning: unused parameter 'nmods' [-Wunused-parameter]
+    int    nmods)   // in
+           ^
+2 warnings generated.
+[23/37] Building CXX object CMakeFiles/venus.dir/venus/Effect.cpp.o
+[24/37] Building CXX object CMakeFiles/venus.dir/venus/Feature.cpp.o
+[25/37] Building CXX object CMakeFiles/venus.dir/venus/ImageWarp.cpp.o
+[26/37] Building CXX object CMakeFiles/venus.dir/venus/Makeup.cpp.o
+[27/37] Building CXX object CMakeFiles/venus.dir/venus/Region.cpp.o
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/venus/ImageWarp.cpp:245:49: warning: unused parameter 'alpha' [-Wunused-parameter]
+void ImageWarp_Similarity::calculateDelta(float alpha)
+                                                ^
+1 warning generated.
+[28/37] Building CXX object CMakeFiles/venus.dir/venus/blend.cpp.o
+[29/37] Building CXX object CMakeFiles/venus.dir/venus/blur.cpp.o
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/stasm/startshape.cpp:411:13: warning: unused parameter 'face_roi' [-Wunused-parameter]
+    Image&  face_roi,           // out: ROI around face, possibly rotated upright
+            ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/stasm/startshape.cpp:412:24: warning: unused parameter 'detpar_roi' [-Wunused-parameter]
+    DetectorParameter& detpar_roi)         // out: detpar wrt to face_roi
+                       ^
+2 warnings generated.
+[30/37] Building CXX object CMakeFiles/venus.dir/venus/colorspace.cpp.o
+[31/37] Building CXX object CMakeFiles/venus.dir/venus/inpaint.cpp.o
+[32/37] Building CXX object CMakeFiles/venus.dir/venus/opencv_utility.cpp.o
+[33/37] Building CXX object CMakeFiles/venus.dir/platform/android/Effect.cpp.o
+[34/37] Building CXX object CMakeFiles/venus.dir/platform/android/Feature.cpp.o
+[35/37] Building CXX object CMakeFiles/venus.dir/platform/android/Makeup.cpp.o
+[36/37] Building CXX object CMakeFiles/venus.dir/platform/android/jni_bridge.cpp.o
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:14:23: warning: unused parameter 'clazz' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _pivot, jfloat whirl, jfloat pinch, jfloat radius)
+                             ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:14:55: warning: unused parameter '_pivot' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _pivot, jfloat whirl, jfloat pinch, jfloat radius)
+                                                             ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:14:70: warning: unused parameter 'whirl' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _pivot, jfloat whirl, jfloat pinch, jfloat radius)
+                                                                            ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:14:84: warning: unused parameter 'pinch' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _pivot, jfloat whirl, jfloat pinch, jfloat radius)
+                                                                                          ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:14:98: warning: unused parameter 'radius' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _pivot, jfloat whirl, jfloat pinch, jfloat radius)
+                                                                                                        ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:28:23: warning: unused parameter 'clazz' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jfloat whirl, jfloat pinch, jfloat radius)
+                             ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:28:54: warning: unused parameter 'whirl' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jfloat whirl, jfloat pinch, jfloat radius)
+                                                            ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:28:68: warning: unused parameter 'pinch' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jfloat whirl, jfloat pinch, jfloat radius)
+                                                                          ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:28:82: warning: unused parameter 'radius' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jfloat whirl, jfloat pinch, jfloat radius)
+                                                                                        ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:41:23: warning: unused parameter 'clazz' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _point0, jobject _point1, jfloat strength, jint type)
+                             ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:41:55: warning: unused parameter '_point0' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _point0, jobject _point1, jfloat strength, jint type)
+                                                             ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:41:72: warning: unused parameter '_point1' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _point0, jobject _point1, jfloat strength, jint type)
+                                                                              ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:41:88: warning: unused parameter 'strength' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _point0, jobject _point1, jfloat strength, jint type)
+                                                                                              ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:41:103: warning: unused parameter 'type' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _point0, jobject _point1, jfloat strength, jint type)
+                                                                                                             ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:56:24: warning: unused parameter 'clazz' [-Wunused-parameter]
+        (JNIEnv * env, jclass clazz, jobject _result, jfloat t, jobject _p0, jobject _p1, jobject _p2, jobject _p3)
+                              ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:69:10: warning: unused parameter 'clazz' [-Wunused-parameter]
+                jclass clazz, jobject _bitmap, jint color, jfloat amount)
+                       ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:109:10: warning: unused parameter 'clazz' [-Wunused-parameter]
+                jclass clazz, jobject _src_bitmap, jobject _dst_bitmap)
+                       ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:140:10: warning: unused parameter 'clazz' [-Wunused-parameter]
+                jclass clazz, jobject _mask, jobject _image, jint _color, jint _select_criterion, jfloat threshold, jboolean antialias, jboolean select_transparent)
+                       ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:140:25: warning: unused parameter '_mask' [-Wunused-parameter]
+                jclass clazz, jobject _mask, jobject _image, jint _color, jint _select_criterion, jfloat threshold, jboolean antialias, jboolean select_transparent)
+                                      ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:140:53: warning: unused parameter '_color' [-Wunused-parameter]
+                jclass clazz, jobject _mask, jobject _image, jint _color, jint _select_criterion, jfloat threshold, jboolean antialias, jboolean select_transparent)
+                                                                  ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:140:66: warning: unused parameter '_select_criterion' [-Wunused-parameter]
+                jclass clazz, jobject _mask, jobject _image, jint _color, jint _select_criterion, jfloat threshold, jboolean antialias, jboolean select_transparent)
+                                                                               ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:140:92: warning: unused parameter 'threshold' [-Wunused-parameter]
+                jclass clazz, jobject _mask, jobject _image, jint _color, jint _select_criterion, jfloat threshold, jboolean antialias, jboolean select_transparent)
+                                                                                                         ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:140:112: warning: unused parameter 'antialias' [-Wunused-parameter]
+                jclass clazz, jobject _mask, jobject _image, jint _color, jint _select_criterion, jfloat threshold, jboolean antialias, jboolean select_transparent)
+                                                                                                                             ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Effect.cpp:140:132: warning: unused parameter 'select_transparent' [-Wunused-parameter]
+                jclass clazz, jobject _mask, jobject _image, jint _color, jint _select_criterion, jfloat threshold, jboolean antialias, jboolean select_transparent)
+                                                                                                                                                 ^
+24 warnings generated.
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Feature.cpp:12:10: warning: unused parameter 'clazz' [-Wunused-parameter]
+                jclass clazz, jobject _image, jstring _image_name, jstring _classifier_dir)
+                       ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Feature.cpp:41:10: warning: unused parameter 'clazz' [-Wunused-parameter]
+                jclass clazz, jobject _image, jstring _image_name, jstring _classifier_dir)
+                       ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Feature.cpp:78:10: warning: unused parameter 'clazz' [-Wunused-parameter]
+                jclass clazz, jobjectArray _points)
+                       ^
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Feature.cpp:5:20: warning: unused variable 'LOG_TAG' [-Wunused-variable]
+static const char* LOG_TAG = "Feature-JNI";
+                   ^
+4 warnings generated.
+/mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/src/main/cpp/platform/android/Makeup.cpp:3:20: warning: unused variable 'LOG_TAG' [-Wunused-variable]
+static const char* LOG_TAG = "Makeup-JNI";
+                   ^
+1 warning generated.
+[37/37] Linking CXX shared library /mnt/extraspace/home/neeraj/oss/repos/PerfectShow/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libvenus.so

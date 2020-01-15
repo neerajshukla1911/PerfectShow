@@ -2,9 +2,25 @@ cmake_minimum_required(VERSION 3.4.1)
 
 project(venus)
 
-find_package(OpenCV 4.0 REQUIRED)
+#start my code
+set(pathOPENCV ${PORJECT_ROOT_DIR}/opencv)
+
+#set(pathOPENCV /home/neeraj/oss/repos/PerfectShow/opencv)
+
+set(pathLIBOPENCV_JAVA ${pathOPENCV}/native/libs/${ANDROID_ABI}/libopencv_java4.so)
+include_directories(${pathOPENCV}/native/jni/include)
+# Creates and names a library, sets it as either STATIC
+# or SHARED, and provides the relative paths to its source code.
+# You can define multiple libraries, and CMake builds them for you.
+# Gradle automatically packages shared libraries with your APK.
+add_library( lib_opencv SHARED IMPORTED )
+set_target_properties(lib_opencv PROPERTIES IMPORTED_LOCATION ${pathLIBOPENCV_JAVA})
+#end my code
+
+#find_package(OpenCV 4.0 REQUIRED)
 
 find_package(OpenMP)
+
 if(OPENMP_FOUND)
 	set(CMAKE_C_FLAGS   "${CMAKE_C_FLAGS}   ${OpenMP_C_FLAGS}  ")
 	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS}")
@@ -83,7 +99,8 @@ if(WIN32)
 else()
 	add_library(${PROJECT_NAME} SHARED ${PROJECT_SOURCE})
 	target_link_libraries(${PROJECT_NAME}
-			${OpenCV_LIBRARIES}
+#			${OpenCV_LIBRARIES}
+			lib_opencv
 			c++_shared
 			log
 			jnigraphics

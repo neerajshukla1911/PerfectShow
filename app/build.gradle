@@ -16,10 +16,10 @@ android {
         externalNativeBuild {
             cmake {
                 cppFlags "-std=c++11 -frtti -fexceptions"
-                arguments "-DOpenCV_DIR=" + opencv_sdk + "/sdk/native/jni" // , "-DANDROID_ARM_NEON=TRUE"
+                arguments "-DOpenCV_DIR=" + opencv_sdk + "/sdk/native/jni", "-DPORJECT_ROOT_DIR=${project.rootDir}" // , "-DANDROID_ARM_NEON=TRUE"
             }
         }
-        
+
         ndk {
             moduleName = 'venus'
             abiFilters 'armeabi-v7a', 'arm64-v8a'
